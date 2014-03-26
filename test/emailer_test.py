@@ -20,4 +20,8 @@ def test_add_subject_to_email():
     assert result == 
 
 def test_add_text_to_email():
-    assert emailer.add_text_to_email(msg,text) == 
+    assert emailer.add_text_to_email(msg,text) ==
+
+def test_add_html_to_email():
+    
+def test_send_email(): 
